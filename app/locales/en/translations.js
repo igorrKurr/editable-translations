@@ -1,6 +1,6 @@
 export default {
-  xui: 'pizda',
-  pizda: 'xui'
+  foo: 'bar',
+  bar: 'foo'
   // "some.translation.key": "Text for some.translation.key",
   //
   // "a": {
