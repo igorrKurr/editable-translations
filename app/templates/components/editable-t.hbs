@@ -1,0 +1,11 @@
+<button {{action 'toggleEdit'}}>e</button>
+{{#if isEditable}}
+  {{input val=trans}}
+  <button {{action 'save'}}>Save</button>
+{{else}}
+  {{#if hasBlock}}
+    {{yield this}}
+  {{else}}
+    {{t key}}
+  {{/if}}
+{{/if}}
